@@ -9,12 +9,12 @@ A database is considered a part of a table
 
 ### Queries
 
-_SELECT_ - Access entries
+**SELECT** - Access entries
 ```
 SELECT <fieldnames>
 ```
 
-_FROM_ - Identifies a table to be searched
+**FROM** - Identifies a table to be searched
 
 ```
 SELECT <field> FROM <table>
@@ -22,12 +22,12 @@ SELECT <field> FROM <table>
 
 ### New Data
 
-_CREATE TABLE_ - Generates a table
+**CREATE TABLE** - Generates a table
 ```
 CREATE TABLE <table_name> (column_values)
 ```
 
-_ALTER TABLE_ - Change data by adding/subtracting columns
+**ALTER TABLE** - Change data by adding/subtracting columns
 
 Add a column field
 ```
@@ -46,12 +46,12 @@ ALTER TABLE <table_name> MODIFY COLUMN <column_name> <data_type>
 
 ### Changing Table Data
 
-_UPDATE_ - Identifies a table to be modified
+**UPDATE** - Identifies a table to be modified
 ```
 UPDATE <tablename>
 ```
 
-_SET_ - Specifies parameters that need updating
+**SET** - Specifies parameters that need updating
 ```
 UPDATE <table> SET <field> to VALUE
 ```
@@ -59,7 +59,7 @@ UPDATE <table> SET <field> to VALUE
 
 ### Conditionals
 
-_WHERE_ - Use at the end of a statment followed by a conditional, statement will only operate on something if a conditional is true
+**WHERE** - Use at the end of a statment followed by a conditional, statement will only operate on something if a conditional is true
 
 
 
