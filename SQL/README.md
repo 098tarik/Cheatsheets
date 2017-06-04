@@ -84,5 +84,14 @@ UPDATE <table> SET <field> to VALUE
 | Text | a string value |
 |  Date | YYY-MM-DD |
 
+### Operators
 
+| Boolean Operators | |
+| --- | --- |
+| = | equality |
+| != | inequality |
+| > | greater than |
+| < | less than |
+| >= | greater than/equal |
+| <= | less than/equal |
 
