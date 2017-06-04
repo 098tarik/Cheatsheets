@@ -65,7 +65,7 @@ UPDATE <table> SET <field> to VALUE
 
 ### Data Types
 
-| Data Type | Text |
+| Data Type | Definition |
 | NULL | values that are blank (unassigned) |
 | Integer | number (signed) |
 | Real | decimal |
