@@ -30,6 +30,14 @@ SELECT <field> FROM <table>
 
 **BETWEEN** - Matches items within a range
 
+#### Output Formats
+**ORDER BY** - organize items being returned by a column
+
+**LIMIT** - only return a certain number of entries
+
+**GROUP BY** - Group like items together
+
+
 
 ### New Data
 
