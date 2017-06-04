@@ -75,6 +75,32 @@ UPDATE <tablename>
 UPDATE <table> SET <field> to VALUE
 ```
 
+### Aggregate Functions
+Do math on numeric data types
+
+**COUNT** - count a set of returned items
+
+**SUM** - add a series of items
+
+**AVG** - calculate average value of a set of numbers
+
+**MAX** - return highest value from a set
+
+**MIN** - return lowest value for a set
+
+**ROUND** - Reduce a float to a certain number of decimal spaces
+```
+ROUND(Val,Significance)
+```
+
+### Joins
+Join operations combine tables by specifying which fields overlap.
+```
+SELECT * FROM table_1
+JOIN table_2 ON
+  table_1.f1 = table_2.f2
+```
+
 
 ### Conditionals
 
