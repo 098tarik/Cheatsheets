@@ -20,6 +20,17 @@ SELECT <fieldnames>
 SELECT <field> FROM <table>
 ```
 
+#### Advanced SELECTS
+
+**DISTINCT** - display each unique field once
+
+**WHERE** - filter elements by requirements, displays only rows that fulfill that boolean expression
+
+**LIKE** - Compare strings to RegEx
+
+**BETWEEN** - Matches items within a range
+
+
 ### New Data
 
 **CREATE TABLE** - Generates a table
