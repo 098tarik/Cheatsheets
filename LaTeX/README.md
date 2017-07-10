@@ -27,4 +27,9 @@ This is a basic document. Replace text here to make it typeset into a pdf.
 
 # Setting Up Documents
 
+LaTeX documents start with a `\documentclass{}` to denote the particulars of this document's typesetting.
+
+### Possible Document Classes
+--- | ---
+article | For articles, scientific journals, invitations.
 
