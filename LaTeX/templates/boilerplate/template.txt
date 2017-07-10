@@ -1,0 +1,7 @@
+\documentclass{article}
+
+\begin{document}
+
+This is a basic document. Replace this text with something else.
+
+\end{document}
