@@ -43,11 +43,11 @@ letterpaper,a4paper,a5paper,b5paper,executivepaper, legalpaper | Defines paper s
 fleqn | Typesets formulas to left instead of cntered. | N/A
 leqno | Places formula numbers on left instead of right. | N/A
 titlepage,notitlepage | Specifies whether or not there is a title page specified. | titlepage in book/report, notitlepage otherwise
-twocolumn | typesets two columns instead of one. | None
+twocolumn | typesets two columns instead of one. | N/A
 twoside,oneside | Determines whether or not document is intended to be printed multisided. | twoside for book, oneside for everything else
-landscape | Changes paper to sideways (landscaped) alignment. | None
+landscape | Changes paper to sideways (landscaped) alignment. | N/A
 openany, openright, openleft | Makes chapter sections begin on next available page, next right hand page, next left hand page respectively. | openright for book, open any otherwise.
-draft | Enables draft markers. Marks edits in a box in document corner. | None
+draft | Enables draft markers. Marks edits in a box in document corner. | N/A
 
 ### Possible Document Classes
 
