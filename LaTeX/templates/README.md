@@ -1,2 +1,2 @@
 # CONTENTS
-+ [Boilerplate](/boilerplate)
++ [Boilerplate](boilerplate/)
