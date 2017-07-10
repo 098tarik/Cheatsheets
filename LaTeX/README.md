@@ -30,6 +30,7 @@ This is a basic document. Replace text here to make it typeset into a pdf.
 LaTeX documents start with a `\documentclass{}` to denote the particulars of this document's typesetting.
 
 ### Possible Document Classes
+a | b
 --- | ---
 article | For articles, scientific journals, invitations.
 
