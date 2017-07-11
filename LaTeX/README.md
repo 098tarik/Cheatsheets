@@ -93,6 +93,45 @@ This is where the document body begins.
 
 Latex attempts to arrange text as efficiently as possible, so line breaks need to be explicitly specified.
 
+### Line Breaks
+
+Many different commands/combinations can used to generate newlines.
+
+```
+\newline
+\linebreak
+\\
+\hfill \break
+```
+
+To handle breaks with different indenting, use:
+
+```
+\par
+```
+
+Also use `\par` to seperate any blocks of different text sizes.
+
+###### Indentation
+
+Indentation can be enforced via:
+```
+\parindent
+\noindent
+```
+
+### Page Breaks
+
+One technique for breaking pages is to fill the current page with space using `vfill`.
+
+Alternatively, new pages can be made with:
+```
+\clearpage - outputs all figures that have appeared on the page.
+\newpage - ends current page
+\pagebreak[0-4] - inserts a page break with a priority of varying significance.
+```
+
+
 
 # Rich Text
 
