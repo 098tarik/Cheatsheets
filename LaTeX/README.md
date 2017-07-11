@@ -6,8 +6,8 @@ Most of these notes are concerned specifically with generating pdf files in `pdf
 
 # CONTENTS
 * [Boilerplate](#Boilerplate)
-* [Setting Up Documents](#Setting Up Documents)
-* []()
+* [Setting Up Documents](#Setup)
+* [Document Metadata](#Metadata)
 
 
 # Boilerplate
@@ -25,7 +25,7 @@ This is a basic document. Replace text here to make it typeset into a pdf.
 ```
 
 
-# Setting Up Documents
+# Setup
 
 LaTeX documents start with a `\documentclass[options]{class}` to denote the particulars of this document's typesetting.
 
@@ -61,5 +61,32 @@ report | longer documents that partition into sections/subsections (theses, smal
 book | Full-sized books
 slides | Specializes in larger fonts like a powerpoint slide deck.
 letter | For letters
+
+
+# Metadata
+
+Once you've created a document, you might want to attach some identifying information to it.
+Before the body of your document begins, you may want to ad some identifying information.
+You can specify data with the `\title`, `\author`, and `\date` tags.
+
+After specifying title information, you can print out this header with `\maketitle`.
+
+```
+\documentclass[12pt, letterpaper, oneside]{article}
+
+\title{Hello Document}
+\author{Douglas Smith \thanks{Github backers}}
+\date{July 2017}
+
+\begin{document}
+
+\maketitle
+
+This is where the document body begins.
+\end{document}
+```
+
+
+
 
 

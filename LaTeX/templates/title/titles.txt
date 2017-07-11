@@ -1,0 +1,13 @@
+\documentclass[12pt, letterpaper, oneside]{article}
+
+\title{Hello Document}
+\author{Douglas Smith \thanks{Github backers}}
+\date{July 2017}
+
+\begin{document}
+
+\maketitle
+
+This is where the document body begins.
+
+\end{document}
