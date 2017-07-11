@@ -1,0 +1,25 @@
+\documentclass{article}
+
+\begin{document}
+
+\textbf{This text is Bold.} \newline
+\textit{This text is italicized.} \newline
+\underline{This text should be underlined.} \newline
+\emph{This text has emphasis.} \newline
+
+Text Sizes \\
+
+{\Huge This text will be Huge.} \\
+\Huge{This is the same huge text.}\\
+{\huge Slightly less impressive is text that is merely huge.}\\
+{\LARGE This new text is LARGE. }\\
+{\Large Large text is pretty big, but not as big.}\\
+{\large Lowercase large text is the smallest of the large text.}\\
+{\normalsize This text should be exactly normal}\\
+Here is unformatted text for comparison.\\
+{\small This text is smaller than normal.}\\
+{\footnotesize This smaller test is perfect for footnotes.}\\
+{\tiny This text is tiny.} \\
+\tiny{More tiny text.} \\
+
+\end{document}

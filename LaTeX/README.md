@@ -8,6 +8,8 @@ Most of these notes are concerned specifically with generating pdf files in `pdf
 * [Boilerplate](#Boilerplate)
 * [Setting Up Documents](#Setup)
 * [Document Metadata](#Metadata)
+* [Whitespace](#Whitespace)
+* [Rich Text](#Text)
 
 
 # Boilerplate
@@ -85,6 +87,58 @@ After specifying title information, you can print out this header with `\maketit
 This is where the document body begins.
 \end{document}
 ```
+
+
+# Whitespace
+
+Latex attempts to arrange text as efficiently as possible, so line breaks need to be explicitly specified.
+
+
+# Rich Text
+
+Text can be assigned different properties to change its size and emphasis.
+
+### Text Modifiers
+Tag | Effect
+--- | ---
+\textbf{} | **Bold** 
+\textit{} | _italics_
+\underline{} | underline
+\emph{} | Special emphasis(exact text varies)
+
+### Text Sizes
+Tag | Size
+--- | ---
+{\tiny} | Smallest text can be made.
+{\footnotesize} | Appropriate footnote sizes.
+{\small} | Smaller than regular text.
+{\normalsize} | Asserts the size stay average.
+{\large} | Larger than standard text size.
+{\Large} | Slightly larger than lowercase large.
+{\LARGE} | Larger than highest Large.
+{\huge} | Bigger than any of the larges.
+{\Huge} | More Huge-er.
+
+```
+\textbf{This text is Bold.} \newline\textit{This text is italicized.} \newline\underline{This text should be underlined.} \newline\emph{This text has emphasis.} \newline
+
+
+{\Huge This text will be Huge.} \\
+\Huge{This is the same huge text.}\\
+{\huge Slightly less impressive is text that is merely huge.}\\
+{\LARGE This new text is LARGE. }\\
+{\Large Large text is pretty big, but not as big.}\\
+{\large Lowercase large text is the smallest of the large text.}\\
+{\normalsize This text should be exactly normal}\\ Here is unformatted text for comparison
+.\\
+{\small This text is smaller than normal.}\\
+{\footnotesize This smaller test is perfect for footnotes.}\\
+{\tiny This text is tiny.} \\
+ 
+```
+
+
+
 
 
 
