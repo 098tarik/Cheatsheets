@@ -10,7 +10,7 @@ Most of these notes are concerned specifically with generating pdf files in `pdf
 * [Document Metadata](#Metadata)
 * [Whitespace](#Whitespace)
 * [Rich Text](#Text)
-
+* [Lists](#Lists)
 
 # Boilerplate
 
@@ -177,6 +177,26 @@ Tag | Size
 ```
 
 
+# Lists
+
+Unordered lists can be created by using the `itemize` environment. Individual list items within the itemized environment can be defined by individual `\item` markers.
+
+```
+\begin{itemize}
+  \item This is one item, indicated by a black dot.
+  \item Seperate items are indicated with extra tags.
+\end{itemize}
+```
+
+An ordered(numbered) list can be created by creating an item with `enumerate` environment.
+
+```
+\begin{enumerate}
+  \item One
+  \item Two
+  \item Three
+\end{enumerate}
+```
 
 
 
