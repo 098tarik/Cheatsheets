@@ -16,7 +16,7 @@ HEADER | Definition
 Host | Domain of the nameserver and the connection port.
 
 
-### All Headers
+### Request Headers
 
 HEADER | Description
 --- | ---
@@ -55,7 +55,20 @@ Via | List of proxies from which server was sent.
 Warning | General Warning about problems with body.
 
 
-### Non-Standard Headers
+### Common Non-Standard Request Headers
+
+Field | Description
+--- | ---
+X-Requested-With | Defines AJAX request type.
+DNT | Request to not track
+X-Forwarded-For | Unofficial standard for finding original IP address
+X-Forwarded-Host | Unofficial standard for original host
+X-Forwarded-Proto | Unofficial standard for original protocol
+X-Http-Method-Override | Override a method in request with method type given in field.
+X-Csrf-Token | Used to identify against cross-site forgery
+X-CSRFToken | X-Csrf-Token
+X-XSRF-TOKEN | X-Csrf-Token
+X-Request-ID | Correlates request between its client and server appearances
 
 
 #### Accept Types
@@ -64,7 +77,9 @@ Warning | General Warning about problems with body.
 #### Warning Types
 
 
+## Response Headers
 
+## Non-Standard Response Headers
 
 
 ## Status Codes
